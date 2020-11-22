@@ -39,7 +39,6 @@ function openModal(target) {
 //Сортировщик событий в модальном окне.
 function pressKeyInModal(event) {
   if (event.key === 'Escape' || event.key === 'Esc') closeModal();
-  console.log(event.key);
   if (event.key === 'ArrowRight') changePicture('ArrowRight');
   if (event.key === 'ArrowLeft') changePicture('ArrowLeft');
 }
